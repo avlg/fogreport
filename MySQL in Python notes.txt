@@ -1,0 +1,23 @@
+PEP 249 -- Python Database API Specification v2.0
+https://www.python.org/dev/peps/pep-0249/
+
+Python 3.x
+https://python.su/forum/topic/21052/
+https://dev.mysql.com/doc/connector-python/en/
+USE THE STABLE VERSION:
+https://dev.mysql.com/doc/connector-python/en/connector-python-versions.html
+pip install mysql-connector==2.1.4
+DO NOT !!! pip install mysql-connector !!!
+2.2.3 is a development release!
+http://stackoverflow.com/questions/43029672/unable-to-find-protobuf-include-directory
+
+Tutorials & Examples, API Reference
+https://dev.mysql.com/doc/connector-python/en/connector-python-coding.html
+https://dev.mysql.com/doc/connector-python/en/connector-python-examples.html
+https://dev.mysql.com/doc/connector-python/en/connector-python-tutorials.html
+https://dev.mysql.com/doc/connector-python/en/connector-python-reference.html
+
+Python 2.x ONLY!!!
+pip install mysql-python
+https://pypi.python.org/pypi/MySQL-python
+MySQL-3.23 through 5.5 and Python-2.4 through 2.7 are currently supported.

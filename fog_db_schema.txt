@@ -1,0 +1,57 @@
+##fog database tables
+##+------------------------+
+##| Tables_in_fog          |
+##+------------------------+
+##| clientUpdates          |
+##| dirCleaner             |
+##| globalSettings         |
+##| greenFog               |
+##| groupMembers           |
+##| groups                 |
+##| history                |
+##| hookEvents             |
+##| hostAutoLogOut         |
+##| hostMAC                |
+##| hostScreenSettings     |
+##| hosts                  |
+##| imageGroupAssoc        |
+##| imagePartitionTypes    |
+##| imageTypes             |
+##| images                 |
+##| imagingLog             |
+##| inventory              |
+##| ipxeTable              |
+##| keySequence            |
+##| moduleStatusByHost     |
+##| modules                |
+##| multicastSessions      |
+##| multicastSessionsAssoc |
+##| nfsFailures            |
+##| nfsGroupMembers        |
+##| nfsGroups              |
+##| notifyEvents           |
+##| os                     |
+##| oui                    |
+##| plugins                |
+##| powerManagement        |
+##| printerAssoc           |
+##| printers               |
+##| pxeMenu                |
+##| scheduledTasks         |
+##| schemaVersion          |
+##| snapinAssoc            |
+##| snapinGroupAssoc       |
+##| snapinJobs             |
+##| snapinTasks            |
+##| snapins                |
+##| supportedOS            |
+##| taskLog                |
+##| taskStates             |
+##| taskTypes              |
+##| tasks                  |
+##| userCleanup            |
+##| userTracking           |
+##| users                  |
+##| virus                  |
+##+------------------------+
+##51 rows in set (0.00 sec)
