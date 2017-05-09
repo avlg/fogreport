@@ -1,5 +1,5 @@
 # fogreport main script
-# (c) 2017 AVLG
+# https://github.com/avlg/fogreport
 
 import mysql.connector
 from mysql.connector import errorcode
