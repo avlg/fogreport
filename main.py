@@ -14,6 +14,8 @@ fog_db_user = cfg.get('database', 'user')
 fog_db_password = cfg.get('database', 'password')
 fog_db_host = cfg.get('database', 'host')
 fog_db_name = cfg.get('database', 'database')
+plot_export = cfg.getboolean('plotexport', 'enable')
+plot_export_path = cfg.get('plotexport', 'plotimage')
 
 config = {
   'user': fog_db_user,
@@ -93,7 +95,7 @@ except mysql.connector.Error as err:
     sys.exit()
 else:
     cnx.close()
-    sys.exit()
+##    sys.exit()
 ##finally:
 ##    sys.exit()
 
@@ -136,6 +138,9 @@ def autolabel(rects):
 
 autolabel(rects)
 
-#plt.savefig('plot.png')
+if plot_export and plot_export_path != '':
+    plt.savefig(plot_export_path)
+    print('Plot saved as : ', plot_export_path)
+
 plt.show()
 print('FINISH')
